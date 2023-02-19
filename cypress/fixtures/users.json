@@ -1,0 +1,6 @@
+{    
+"user1": {"email" : "b956873+test1@gmail.com", "password" : "Test123", "name" : "Roman1", "newpassword": "Test1234"},
+"user2": {"email" : "b956873+test2@gmail.com", "password" : "Test123", "name" : "Roman2", "newpassword": "Test1234"},
+"user3": {"email" : "b956873+test3@gmail.com", "password" : "Test123", "name" : "Roman3", "newpassword": "Test1234"},
+"user4": {"email" : "b956873+test4@gmail.com", "password" : "Test123", "name" : "Roman4", "newpassword": "Test1234"}
+}

@@ -1,0 +1,133 @@
+
+{    
+"box1": {
+    "picture": "gift",
+    "usePost": "true",
+    "useCashLimit": "true",
+    "cashLimit": "1",
+    "cashLimitCurrency": "rub",
+    "useWish": "true",
+    "useNames": "true",
+    "isPhoneRequired": "true"
+},
+"box2": {
+    "picture": "cup_one",
+    "usePost": "false",
+    "useCashLimit": "true",
+    "cashLimit": "1000",
+    "cashLimitCurrency": "eur",
+    "useWish": "true",
+    "useNames": "true",
+    "isPhoneRequired": "false"
+},
+"box3": {
+    "picture": "cup_two",
+    "usePost": "true",
+    "useCashLimit": "true",
+    "cashLimit": "50000",
+    "cashLimitCurrency": "uah",
+    "useWish": "true",
+    "useNames": "false",
+    "isPhoneRequired": "true"
+},
+"box4": {
+    "picture": "cake",
+    "usePost": "false",
+    "useCashLimit": "true",
+    "cashLimit": "100000",
+    "cashLimitCurrency": "byn",
+    "useWish": "true",
+    "useNames": "false",
+    "isPhoneRequired": "false"
+},
+"box5": {
+    "picture": "cup_cake",
+    "usePost": "true",
+    "useCashLimit": "true",
+    "cashLimit": "500000",
+    "cashLimitCurrency": "kzt",
+    "useWish": "false",
+    "useNames": "true",
+    "isPhoneRequired": "true"
+},
+"box6": {
+    "picture": "cookie_tree",
+    "usePost": "false",
+    "useCashLimit": "true",
+    "cashLimit": "999999",
+    "cashLimitCurrency": "usd",
+    "useWish": "false",
+    "useNames": "true",
+    "isPhoneRequired": "false"
+},
+"box7": {
+    "picture": "cookie_star",
+    "usePost": "true",
+    "useCashLimit": "true",
+    "cashLimit": "100",
+    "cashLimitCurrency": "rub",
+    "useWish": "false",
+    "useNames": "false",
+    "isPhoneRequired": "true"
+},
+"box8": {
+    "picture": "lollipop",
+    "usePost": "false",
+    "useCashLimit": "true",
+    "cashLimit": "500",
+    "cashLimitCurrency": "eur",
+    "useWish": "false",
+    "useNames": "false",
+    "isPhoneRequired": "false"
+},
+"box9": {
+    "picture": "mittens",
+    "usePost": "true",
+    "useCashLimit": " ",
+    "cashLimit": " ",
+    "cashLimitCurrency": " ",
+    "useWish": "true",
+    "useNames": "true",
+    "isPhoneRequired": "true"
+},
+"box10": {
+    "picture": "tree",
+    "usePost": "false",
+    "useCashLimit": " ",
+    "cashLimit": " ",
+    "cashLimitCurrency": " ",
+    "useWish": "true",
+    "useNames": "true",
+    "isPhoneRequired": "false"
+},
+"box11": {
+    "picture": "tree_toys",
+    "usePost": "false",
+    "useCashLimit": " ",
+    "cashLimit": " ",
+    "cashLimitCurrency": " ",
+    "useWish": "true",
+    "useNames": "false",
+    "isPhoneRequired": "true"
+},
+"box12": {
+    "picture": "santa",
+    "usePost": "false",
+    "useCashLimit": " ",
+    "cashLimit": " ",
+    "cashLimitCurrency": " ",
+    "useWish": "true",
+    "useNames": "false",
+    "isPhoneRequired": "false"
+},
+"box13": {
+    "picture": "house_one",
+    "usePost": "true",
+    "useCashLimit": " ",
+    "cashLimit": " ",
+    "cashLimitCurrency": " ",
+    "useWish": "false",
+    "useNames": "true",
+    "isPhoneRequired": "true"
+}
+}
