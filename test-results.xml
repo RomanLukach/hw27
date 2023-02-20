@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.745" tests="62" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-20T10:14:57" tests="0" file="cypress\e2e\santaAPI.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="AS-6 Site login &amp; password change" timestamp="2023-02-20T10:14:57" tests="4" time="2.601" failures="0">
+    <testcase name="AS-6 Site login &amp; password change login" time="1.118" classname="login">
+    </testcase>
+    <testcase name="AS-6 Site login &amp; password change password change to new password API" time="0.694" classname="password change to new password API">
+    </testcase>
+    <testcase name="AS-6 Site login &amp; password change password change to initial password API" time="0.630" classname="password change to initial password API">
+    </testcase>
+    <testcase name="AS-6 Site login &amp; password change logout" time="0.133" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-27 Box Creation &amp; AS-28 Box adjustment &amp; AS-29 Delete Box" timestamp="2023-02-20T10:15:00" tests="6" time="1.743" failures="0">
+    <testcase name="AS-27 Box Creation &amp; AS-28 Box adjustment &amp; AS-29 Delete Box login" time="1.067" classname="login">
+    </testcase>
+    <testcase name="AS-27 Box Creation &amp; AS-28 Box adjustment &amp; AS-29 Delete Box AS-27 Box Creation - Key" time="0.139" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-27 Box Creation &amp; AS-28 Box adjustment &amp; AS-29 Delete Box AS-27 Box Creation" time="0.147" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-27 Box Creation &amp; AS-28 Box adjustment &amp; AS-29 Delete Box AS-28 Box adjustment" time="0.098" classname="AS-28 Box adjustment">
+    </testcase>
+    <testcase name="AS-27 Box Creation &amp; AS-28 Box adjustment &amp; AS-29 Delete Box AS-29 Delete Box" time="0.115" classname="AS-29 Delete Box">
+    </testcase>
+    <testcase name="AS-27 Box Creation &amp; AS-28 Box adjustment &amp; AS-29 Delete Box logout" time="0.141" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-30 Create Box Name (backspace 1 symbol)" timestamp="2023-02-20T10:15:02" tests="4" time="1.995" failures="0">
+    <testcase name="AS-30 Create Box Name (backspace 1 symbol) login" time="1.043" classname="login">
+    </testcase>
+    <testcase name="AS-30 Create Box Name (backspace 1 symbol) AS-27 Box Creation - Key" time="0.608" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-30 Create Box Name (backspace 1 symbol) AS-27 Box Creation" time="0.141" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-30 Create Box Name (backspace 1 symbol) logout" time="0.186" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-32 Create Box (name - alphanumeric and backspace)" timestamp="2023-02-20T10:15:04" tests="4" time="1.613" failures="0">
+    <testcase name="AS-32 Create Box (name - alphanumeric and backspace) login" time="1.206" classname="login">
+    </testcase>
+    <testcase name="AS-32 Create Box (name - alphanumeric and backspace) AS-27 Box Creation - Key" time="0.142" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-32 Create Box (name - alphanumeric and backspace) AS-27 Box Creation" time="0.118" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-32 Create Box (name - alphanumeric and backspace) logout" time="0.130" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-33 Create Box Name (special symbols)" timestamp="2023-02-20T10:15:05" tests="4" time="1.428" failures="0">
+    <testcase name="AS-33 Create Box Name (special symbols) login" time="1.026" classname="login">
+    </testcase>
+    <testcase name="AS-33 Create Box Name (special symbols) AS-27 Box Creation - Key" time="0.132" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-33 Create Box Name (special symbols) AS-27 Box Creation" time="0.132" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-33 Create Box Name (special symbols) logout" time="0.125" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-22 Create box (name - special symbols without quotes)" timestamp="2023-02-20T10:15:07" tests="4" time="1.467" failures="0">
+    <testcase name="AS-22 Create box (name - special symbols without quotes) login" time="0.978" classname="login">
+    </testcase>
+    <testcase name="AS-22 Create box (name - special symbols without quotes) AS-27 Box Creation - Key" time="0.180" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-22 Create box (name - special symbols without quotes) AS-27 Box Creation" time="0.135" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-22 Create box (name - special symbols without quotes) logout" time="0.150" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-9 Login (correct login &amp; no password)" timestamp="2023-02-20T10:15:08" tests="1" time="0.060" failures="0">
+    <testcase name="AS-9 Login (correct login &amp; no password) no login &amp; correct password" time="0.060" classname="no login &amp; correct password">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-11 Login (correct login &amp; incorrect password)" timestamp="2023-02-20T10:15:08" tests="1" time="0.582" failures="0">
+    <testcase name="AS-11 Login (correct login &amp; incorrect password) no login &amp; correct password" time="0.515" classname="no login &amp; correct password">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-12 Login (no login &amp; correct password)" timestamp="2023-02-20T10:15:09" tests="1" time="0.083" failures="0">
+    <testcase name="AS-12 Login (no login &amp; correct password) no login &amp; correct password" time="0.144" classname="no login &amp; correct password">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-15 Login (no login &amp; no password)" timestamp="2023-02-20T10:15:09" tests="1" time="0.047" failures="0">
+    <testcase name="AS-15 Login (no login &amp; no password) no login &amp; no password" time="0.048" classname="no login &amp; no password">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-16 Login (incorrect login &amp; correct password)" timestamp="2023-02-20T10:15:09" tests="1" time="0.554" failures="0">
+    <testcase name="AS-16 Login (incorrect login &amp; correct password) incorrect login &amp; correct password" time="0.503" classname="incorrect login &amp; correct password">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-17 Create box (no key)" timestamp="2023-02-20T10:15:10" tests="3" time="2.523" failures="0">
+    <testcase name="AS-17 Create box (no key) login" time="2.270" classname="login">
+    </testcase>
+    <testcase name="AS-17 Create box (no key) AS-27 Box Creation" time="0.135" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-17 Create box (no key) logout" time="0.134" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-18 Create box (no name)" timestamp="2023-02-20T10:15:12" tests="4" time="1.324" failures="0">
+    <testcase name="AS-18 Create box (no name) login" time="0.910" classname="login">
+    </testcase>
+    <testcase name="AS-18 Create box (no name) AS-27 Box Creation - Key" time="0.131" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-18 Create box (no name) AS-27 Box Creation" time="0.101" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-18 Create box (no name) logout" time="0.168" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-19 Create box (no key &amp; no name)" timestamp="2023-02-20T10:15:13" tests="4" time="1.411" failures="0">
+    <testcase name="AS-19 Create box (no key &amp; no name) login" time="0.997" classname="login">
+    </testcase>
+    <testcase name="AS-19 Create box (no key &amp; no name) AS-27 Box Creation - Key" time="0.138" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-19 Create box (no key &amp; no name) AS-27 Box Creation" time="0.152" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-19 Create box (no key &amp; no name) logout" time="0.120" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-20 Create Box (name &gt; 256)" timestamp="2023-02-20T10:15:15" tests="4" time="1.529" failures="0">
+    <testcase name="AS-20 Create Box (name &gt; 256) login" time="1.100" classname="login">
+    </testcase>
+    <testcase name="AS-20 Create Box (name &gt; 256) AS-27 Box Creation - Key" time="0.128" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-20 Create Box (name &gt; 256) AS-27 Box Creation" time="0.131" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-20 Create Box (name &gt; 256) logout" time="0.139" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-21 Create Box (key &gt; 64)" timestamp="2023-02-20T10:15:16" tests="4" time="2.383" failures="0">
+    <testcase name="AS-21 Create Box (key &gt; 64) login" time="1.927" classname="login">
+    </testcase>
+    <testcase name="AS-21 Create Box (key &gt; 64) AS-27 Box Creation - Key" time="0.127" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-21 Create Box (key &gt; 64) AS-27 Box Creation" time="0.173" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-21 Create Box (key &gt; 64) logout" time="0.141" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-23 Create box (key - special symbols withoud quotes)" timestamp="2023-02-20T10:15:19" tests="4" time="1.377" failures="0">
+    <testcase name="AS-23 Create box (key - special symbols withoud quotes) login" time="0.933" classname="login">
+    </testcase>
+    <testcase name="AS-23 Create box (key - special symbols withoud quotes) AS-27 Box Creation - Key" time="0.140" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-23 Create box (key - special symbols withoud quotes) AS-27 Box Creation" time="0.157" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-23 Create box (key - special symbols withoud quotes) logout" time="0.133" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-24 Create Box (key - alphanumeric and backspace)" timestamp="2023-02-20T10:15:20" tests="4" time="1.502" failures="0">
+    <testcase name="AS-24 Create Box (key - alphanumeric and backspace) login" time="1.026" classname="login">
+    </testcase>
+    <testcase name="AS-24 Create Box (key - alphanumeric and backspace) AS-27 Box Creation - Key" time="0.145" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-24 Create Box (key - alphanumeric and backspace) AS-27 Box Creation" time="0.156" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-24 Create Box (key - alphanumeric and backspace) logout" time="0.143" classname="logout">
+    </testcase>
+  </testsuite>
+  <testsuite name="AS-31 Create Box (key - with backspases)" timestamp="2023-02-20T10:15:22" tests="4" time="1.497" failures="0">
+    <testcase name="AS-31 Create Box (key - with backspases) login" time="1.016" classname="login">
+    </testcase>
+    <testcase name="AS-31 Create Box (key - with backspases) AS-27 Box Creation - Key" time="0.148" classname="AS-27 Box Creation - Key">
+    </testcase>
+    <testcase name="AS-31 Create Box (key - with backspases) AS-27 Box Creation" time="0.190" classname="AS-27 Box Creation">
+    </testcase>
+    <testcase name="AS-31 Create Box (key - with backspases) logout" time="0.128" classname="logout">
+    </testcase>
+  </testsuite>
+</testsuites>

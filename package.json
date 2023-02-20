@@ -21,6 +21,7 @@
   "devDependencies": {
     "@bahmutov/cy-api": "^2.2.3",
     "@faker-js/faker": "^7.6.0",
-    "cypress": "^12.6.0"
+    "cypress": "^12.6.0",
+    "mocha-junit-reporter": "^2.2.0"
   }
 }
