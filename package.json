@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "npx cypress open",
-    "cy:run": " npx cypress run"
+    "cy:run": "npx cypress run",
+    "cy:run:mocha:reporter": "npx cypress run --reporter mocha-junit-reporter",
+    "jira:test:report:upload": "curl --request POST 'https://xray.cloud.getxray.app/api/v2/import/execution/junit?projectKey=AS' --header 'Content-Type: text/xml' --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiI4NzgwNGY4OC00OGVjLTMzZDYtYTVkMi02OWRjZjA1YjBmNDgiLCJhY2NvdW50SWQiOiI2MmJkYmQxMjJiNmU0ZGRiYTExNTAyYmIiLCJpc1hlYSI6ZmFsc2UsImlhdCI6MTY3Njk3MjQzNSwiZXhwIjoxNjc3MDU4ODM1LCJhdWQiOiJGRjhFMjkxNjgyREQ0N0QwQTQwNTA0QUMxNzlDNEQwQyIsImlzcyI6ImNvbS54cGFuZGl0LnBsdWdpbnMueHJheSIsInN1YiI6IkZGOEUyOTE2ODJERDQ3RDBBNDA1MDRBQzE3OUM0RDBDIn0.H9DMHXxehzBYYJVIzPuOPWNpHzDDv6pfy5EJf98dbCY' --data '@/Users/roman/Personal/AutoQA/Home_works/HW27/test-results.xml'"
   },
   "repository": {
     "type": "git",
