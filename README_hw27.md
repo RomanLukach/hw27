@@ -10,3 +10,7 @@
 - Измените результаты некоторых тестов и запустите тесты еще раз, чтобы сформировать новый отчет. - DONE
 - Импортируйте новые результаты в тот же Execution. - DONE
 - Приложите коммит на ваши изменения, а также добавьте it.switcher.test@gmail.com в ваш проект, чтобы мы могли увидеть результаты импортированных тестов в Jira
+DONE:
+1. Commit with 1 failed test: https://github.com/RomanLukach/hw27/commit/268e10bee7ca38abf07aaf957540dd440195604b
+2. Commit with All tests PASS: https://github.com/RomanLukach/hw27/commit/194e630a10b646190c3439e372d9bbbf1e601a52
+3. Project done basd on HW12 and HW17.2 (API release). Invite link sent to it.switcher.test@gmail.com. Project name is AQA.
