@@ -90,7 +90,7 @@ describe('AS-27 Box Creation & AS-28 Box adjustment & AS-29 Delete Box', () => {
       method: 'POST',
       body: {
         email: users.user1.email,
-        password: users.user1.newpassword
+        password: users.user1.password
         }
       }).then((response) => {
         expect(response.status).to.equal(200);
